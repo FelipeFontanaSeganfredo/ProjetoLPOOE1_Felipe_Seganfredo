@@ -108,13 +108,13 @@ O arquivo `persistence.xml` contém as configurações para conectar o Hibernate
 
 ## Teste JUnit
 
-O projeto inclui um teste JUnit na classe `TransportadoraTest`, que testa a persistência das entidades:
+O projeto inclui um teste JUnit na classe `TransportadoraTeste`, que testa a persistência das entidades:
 
 ```java
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.Test;
 
-public class TransportadoraTest {
+public class TransportadoraTeste {
     @Test
     public void testPersistenciaDeEntidades() {
         Cliente cliente = new Cliente();
